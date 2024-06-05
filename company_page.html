@@ -3014,7 +3014,48 @@
   font-stretch: normal;
   text-decoration: none;
 }
-
+ .price-comparison {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        .price-comparison th, .price-comparison td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .price-comparison th {
+            background-color: #f4f4f4;
+        }
+        .price-comparison .store {
+            background-color: #f9f9f9;
+        }
+        .price-comparison .amazon {
+            background-color: #ff9900;
+            color: white;
+        }
+        .price-comparison .ebay {
+            background-color: #0064d2;
+            color: white;
+        }
+        .price-comparison .store-price {
+            background-color: #28a745;
+            color: white;
+        }
+        .price-comparison .your-price {
+            background-color: #17a2b8;
+            color: white;
+        }
+        .price-comparison .buy-now {
+            background-color: #ff5733;
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .price-comparison .buy-now:hover {
+            background-color: #c70039;
+        }
     </style>
   </head>
   <body>
@@ -3725,6 +3766,93 @@
           </button>
         </div>
       </div>
+       <main>
+        <section id="product" class="product-page">
+            <div class="container">
+                <h1>WELLA Well Volume Boost Shampoo</h1>
+                <img src="wella-well-volume-boost-shampoo.jpg" alt="WELLA Well Volume Boost Shampoo" class="product-image">
+                <p class="price">$19.99</p>
+                <p class="product-description">
+                    Enhance your hair's volume with WELLA Well Volume Boost Shampoo. Perfect for fine hair, this volumizing shampoo delivers fuller, thicker hair with every wash. Our unique formula nourishes and strengthens hair, leaving it looking healthy and vibrant.
+                </p>
+                <ul class="features">
+                    <li>Boosts hair volume</li>
+                    <li>Perfect for fine hair</li>
+                    <li>Nourishing and strengthening formula</li>
+                    <li>Free from parabens and sulfates</li>
+                </ul>
+                <a href="checkout.html" class="btn">Buy Now</a>
+            </div>
+        </section>
+
+        <section id="price-comparison" class="price-comparison-section">
+            <div class="container">
+                <h2>Compare Prices</h2>
+                <table class="price-comparison">
+                    <thead>
+                        <tr>
+                            <th>Store</th>
+                            <th>Price</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="amazon">
+                            <td>Amazon</td>
+                            <td>$21.99</td>
+                            <td><a href="https://www.amazon.com/dp/B08XYZ" class="buy-now" target="_blank">Buy Now</a></td>
+                        </tr>
+                        <tr class="ebay">
+                            <td>eBay</td>
+                            <td>$20.99</td>
+                            <td><a href="https://www.ebay.com/itm/123456" class="buy-now" target="_blank">Buy Now</a></td>
+                        </tr>
+                        <tr class="store">
+                            <td>Local Store</td>
+                            <td>$22.49</td>
+                            <td><a href="https://www.localstore.com/wella-well-volume-boost-shampoo" class="buy-now" target="_blank">Buy Now</a></td>
+                        </tr>
+                        <tr class="your-price">
+                            <td>Your Price</td>
+                            <td>$19.99</td>
+                            <td><a href="checkout.html" class="buy-now">Buy Now</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2>Customer Reviews</h2>
+                <div class="review">
+                    <p>"The WELLA Well Volume Boost Shampoo has transformed my fine hair. It's now fuller and healthier than ever. Highly recommend!"</p>
+                    <cite>- Sarah M.</cite>
+                </div>
+                <div class="review">
+                    <p>"I've tried many volumizing shampoos, but this one by WELLA is the best. My hair feels thicker and more vibrant."</p>
+                    <cite>- James P.</cite>
+                </div>
+                <!-- Add more reviews as needed -->
+            </div>
+        </section>
+
+        <section id="faq" class="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-item">
+                    <h3>How do I use the WELLA Well Volume Boost Shampoo?</h3>
+                    <p>Apply a small amount to wet hair, lather, and rinse thoroughly. For best results, use regularly and follow with WELLA conditioner.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is this product suitable for all hair types?</h3>
+                    <p>Yes, while it's especially beneficial for fine hair, it can be used on all hair types.</p>
+                </div>
+                <!-- Add more FAQs as needed -->
+            </div>
+        </section>
+    </main>
+
       <div class="homepage-saa-s-tech-startup-footer6">
         <div class="homepage-saa-s-tech-startup-container3">
           <div class="homepage-saa-s-tech-startup-newsletter">
